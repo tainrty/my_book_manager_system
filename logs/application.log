@@ -1,0 +1,12 @@
+2024-11-15 18:30:45.483  INFO 20336 --- [restartedMain] c.e.m.MyBookManagerSystemApplication     : Starting MyBookManagerSystemApplication using Java 1.8.0_144 on TY with PID 20336 (E:\book_manager\mybook\my_book_manager_system\target\classes started by tainr in E:\book_manager\mybook\my_book_manager_system)
+2024-11-15 18:30:45.485  INFO 20336 --- [restartedMain] c.e.m.MyBookManagerSystemApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-15 18:30:45.535  INFO 20336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-15 18:30:45.535  INFO 20336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-15 18:30:46.565  INFO 20336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2024-11-15 18:30:46.574  INFO 20336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-15 18:30:46.574  INFO 20336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-11-15 18:30:46.650  INFO 20336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-15 18:30:46.651  INFO 20336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1115 ms
+2024-11-15 18:30:47.722  INFO 20336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-15 18:30:47.757  INFO 20336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2024-11-15 18:30:47.769  INFO 20336 --- [restartedMain] c.e.m.MyBookManagerSystemApplication     : Started MyBookManagerSystemApplication in 2.711 seconds (JVM running for 3.739)

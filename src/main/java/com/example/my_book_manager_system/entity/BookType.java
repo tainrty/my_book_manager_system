@@ -1,4 +1,4 @@
-package entity;
+package com.example.my_book_manager_system.entity;
 
 public class BookType {
     private Integer booktypeid;
