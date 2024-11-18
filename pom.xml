@@ -6,85 +6,78 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.2</version>
-		<relativePath/> <!-- 从仓库中查找父级 -->
+		<relativePath/>
 	</parent>
+
 	<groupId>com.example</groupId>
 	<artifactId>WEB_Maven</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>WEB_Maven</name>
 	<description>WEB_Maven</description>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<!-- Spring Boot Web 启动器，包含构建 Web 应用所需的基本依赖 -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
-			<!-- Spring Boot 开发工具，提供热重启和自动刷新功能，提升开发效率 -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<!-- Spring Boot 测试启动器，包含用于测试的常用库，如 JUnit 和 Mockito -->
 		</dependency>
+
+		<!-- MyBatis-Plus 核心包 -->
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-boot-starter</artifactId>
 			<version>3.5.2</version>
 		</dependency>
+		<!-- MyBatis-Plus Spring Boot 启动器 -->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<version>3.5.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.32</version> <!-- 使用一个可用的版本 -->
+			<version>8.0.32</version>
 		</dependency>
+
+		<!-- Druid 数据库连接池 -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
 			<version>1.2.9</version>
 		</dependency>
+
+		<!-- Swagger 2 API 文档生成支持 -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
 			<version>2.9.2</version>
-			<!-- Springfox Swagger 2，提供 Swagger 2 API 文档生成支持 -->
 		</dependency>
+
+		<!-- Swagger UI 用户界面 -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.10.0</version>
-			<!-- Springfox Swagger UI，提供 Swagger API 文档的用户界面 -->
 		</dependency>
+
+		<!-- Lombok 简化 Java 开发 -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.26</version>
 			<scope>provided</scope>
 		</dependency>
-
-
-		<dependency>
-			<groupId>com.github.pagehelper</groupId>
-			<artifactId>pagehelper-spring-boot-starter</artifactId>
-			<version>2.1.0</version>
-		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -92,9 +85,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!-- Spring Boot Maven 插件，支持创建可执行的 JAR 文件 -->
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
