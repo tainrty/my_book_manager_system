@@ -1,0 +1,12 @@
+com\example\my_book_manager_system\MyBookManagerSystemApplication.class
+com\example\my_book_manager_system\entity\Borrow.class
+com\example\my_book_manager_system\controlle\UserController.class
+com\example\my_book_manager_system\entity\BookInfo.class
+com\example\my_book_manager_system\MyBatisConfig.class
+com\example\my_book_manager_system\entity\User.class
+com\example\my_book_manager_system\entity\BookType.class
+com\example\my_book_manager_system\comment\request\UserPageRequest.class
+com\example\my_book_manager_system\comment\request\BaseRequest.class
+com\example\my_book_manager_system\WebConfig.class
+com\example\my_book_manager_system\mapper\UserMapper.class
+com\example\my_book_manager_system\comment\Result.class
