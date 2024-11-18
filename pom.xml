@@ -30,12 +30,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-		<!-- MyBatis-Plus 核心包 -->
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-boot-starter</artifactId>
-			<version>3.5.2</version>
+			<version>3.5.0</version>
 		</dependency>
 		<!-- MyBatis-Plus Spring Boot 启动器 -->
 		<dependency>
